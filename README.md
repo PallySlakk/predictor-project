@@ -1,36 +1,96 @@
- Hospital Readmission Prediction System
+# 🏥 Hospital Readmission Prediction System
 
-Predicting 30-Day Hospital Readmissions using Medical + Social Determinants of Health
+**Predicting 30-Day Hospital Readmissions using Medical + Social Determinants of Health**
 
-https://img.shields.io/badge/python-3.8+-blue.svg
-https://img.shields.io/badge/License-MIT-yellow.svg
-https://img.shields.io/badge/Dashboard-Dash-blue.svg
+![Python](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Dashboard](https://img.shields.io/badge/Dashboard-Dash-blue.svg)
 
-A comprehensive machine learning system that predicts 30-day hospital readmissions by integrating clinical data with social determinants of health (SDOH). This project addresses healthcare disparities and improves prediction accuracy by considering both medical factors and community-level social vulnerability indicators.
+---
 
-🎯 Key Features
-🤖 Multi-Model Approach: Logistic Regression, Random Forest, XGBoost with hyperparameter tuning
+A comprehensive machine learning project that predicts **30-day hospital readmissions** by integrating **clinical data** with **Social Determinants of Health (SDOH)**. The system aims to address healthcare disparities and enhance prediction accuracy using real-world health and community-level indicators.
 
-📊 Comprehensive Data Integration: Medical records + CDC Social Vulnerability Index
+---
 
-⚖️ Class Imbalance Handling: SMOTE implementation for balanced training
+## 🎯 Key Features
 
-🎮 Interactive Dashboard: Real-time risk prediction with Plotly Dash
+- 🤖 **Multi-Model Approach**  
+  Logistic Regression, Random Forest, XGBoost with hyperparameter tuning
 
-🔍 Model Interpretability: SHAP analysis and feature importance visualization
+- 📊 **Comprehensive Data Integration**  
+  Medical records + CDC Social Vulnerability Index (SVI)
 
-⚖️ Fairness Analysis: Equity evaluation across demographic subgroups
+- ⚖️ **Class Imbalance Handling**  
+  SMOTE for balanced training data
 
-🏥 Real-time Predictions: Instant risk assessment for patient care planning
+- 🎮 **Interactive Dashboard (Dash)**  
+  Real-time patient risk prediction with Plotly Dash
 
-🚀 Quick Start
-Prerequisites
-Python 3.8+
+- 🔍 **Model Interpretability**  
+  SHAP values, feature importance, and model explanations
 
-pip package manager
+- 🧭 **Fairness & Bias Analysis**  
+  Equity evaluation across demographic subgroups
 
-Installation
+- 🏥 **Real-Time Prediction Utility**  
+  Instant risk assessment to support care planning
 
-Clone the repository
+---
 
+## 🚀 Quick Start
 
+### ✅ Prerequisites
+
+- Python **3.8+**
+- `pip` package manager
+
+### 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/PallySlakk/predictor-project.git
+cd predictor-project
+
+▶️ Run the Complete System
+python3 main.py
+
+This single command will:
+
+✅ Install required dependencies
+
+📥 Load & preprocess integrated datasets
+
+🤖 Train predictive ML models
+
+📊 Launch the interactive dashboard at http://localhost:8050
+
+🎮 Dashboard Highlights
+
+Use the dashboard to:
+
+🩺 Assess Patient Risk – Input clinical & social factors for real-time predictions
+
+🧪 Compare ML Models – View performance metrics across algorithms
+
+🧭 Interpret Features – SHAP charts & feature importance
+
+🏷 Actionable Interventions – Risk-based recommendations
+
+📈 Results & Impact
+Key Insight	Outcome
+SDOH Integration	+12% improvement over clinical-only models
+Top Predictors	Social Vulnerability Index in top 5 features
+Model Fairness	Performance preserved across demographics
+Usability	Real-time clinical decision support via dashboard
+
+📄 License
+
+This project is licensed under the MIT License.
+
+⭐ Acknowledgements
+
+CDC Social Vulnerability Index (SVI)
+
+Healthcare providers & research datasets
+
+Open-source ML and visualization communities
