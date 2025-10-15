@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Model files
+models/trained_model.pkl
+*.pkl
+*.joblib
+*.model
+
+# Data files
+*.csv
+*.xlsx
+*.h5
+data/raw/
+data/processed/
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+models/
+models/
+*.pkl
